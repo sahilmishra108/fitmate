@@ -14,17 +14,17 @@ const HomePage = () => {
             <div className="lg:col-span-7 space-y-8 relative">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
                 <div>
-                  <span className="text-foreground">Elevate</span>
+                  <span className="text-[--ice-blue]">Transform</span>
                 </div>
                 <div>
-                  <span className="text-primary">Your Fitness Journey</span>
+                  <span className="text-primary">Your Body</span>
                 </div>
                 <div className="pt-2">
-                  <span className="text-foreground">With Smarter</span>
+                  <span className="text-[--ice-blue]">With Advanced</span>
                 </div>
                 <div className="pt-2">
                   <span className="text-foreground">AI</span>
-                  <span className="text-primary"> Coaching Tools</span>
+                  <span className="text-primary"> Technology</span>
                 </div>
               </h1>
 
@@ -94,8 +94,6 @@ const HomePage = () => {
                   {/* DECORATIONS ON TOP OF THE IMAGE */}
                   <div className="absolute inset-0 pointer-events-none">
                     <div className="absolute top-1/3 left-1/3 w-1/3 h-1/3 border border-primary/40 rounded-full" />
-
-                    {/* Targeting lines */}
                     <div className="absolute top-1/2 left-0 w-1/4 h-px bg-primary/50" />
                     <div className="absolute top-1/2 right-0 w-1/4 h-px bg-primary/50" />
                     <div className="absolute top-0 left-1/2 h-1/4 w-px bg-primary/50" />
